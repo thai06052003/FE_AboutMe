@@ -7,7 +7,9 @@
 *,
 *:before,
 *:after {
-    box-sizing: inherit
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
 }
 
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
@@ -157,7 +159,7 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-    -webkit-appearance: button
+    -webkit-appearance: button;
 }
 
 button::-moz-focus-inner,
@@ -1336,7 +1338,7 @@ a {
 }
 
 .w3-large {
-    font-size: 24px
+    font-size: 16px
 }
 
 .w3-xlarge {
@@ -1420,7 +1422,10 @@ a {
 .w3-margin {
     margin: 16px !important
 }
-
+.my-12 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
 .w3-margin-top {
     margin-top: 16px !important
 }
@@ -2037,7 +2042,7 @@ body {
 
 .link {
     width: 500px;
-    height: 50px;
+    height: 48px;
 }
 
 @media (min-width: 1200px) {
